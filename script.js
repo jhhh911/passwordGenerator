@@ -37,7 +37,4 @@ password2Box.onclick = function() {
   navigator.clipboard.writeText(password2Box.innerText)
   alert('password copied to clipboard')
 }
-// input the arrays onto the screen using dom manipulation
-// to do this we need to create a button selector
-// when the button is clicked, we run the function twice, putting each
-// into it's respective box
+
