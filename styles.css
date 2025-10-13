@@ -11,6 +11,14 @@ body {
 span {
   color: lightgreen;
 }
+label {
+  font-size: 18px;
+}
+
+#myDropdown {
+  margin-top: 20px;
+  font-size: 20px;
+}
 
 button {
   background-color: lightgreen;
