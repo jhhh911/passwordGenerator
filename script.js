@@ -45,5 +45,3 @@ password2Box.onclick = function () {
   alert("password copied to clipboard");
 };
 
-// Create dropdown list for input options ranging from 6 - 15
-// Creating javascript to take the input chosen and inject it into the code
