@@ -1,4 +1,5 @@
-import { fullArray } from "/arrays.js";
+const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9","~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?",
+"/"];
 
 let passwordLength = document.getElementById("myDropdown");
 
@@ -29,8 +30,8 @@ let password1Box = document.getElementById("password1");
 let password2Box = document.getElementById("password2");
 
 generate.onclick = function () {
-  let password1 = arrSelector(fullArray);
-  let password2 = arrSelector(fullArray);
+  let password1 = arrSelector(characters);
+  let password2 = arrSelector(characters);
   password1Box.textContent = password1.join("");
   password2Box.textContent = password2.join("");
 };
@@ -45,3 +46,6 @@ password2Box.onclick = function () {
   alert("password copied to clipboard");
 };
 
+if (password1Box.textContent) {
+  console.log('this works!')
+}

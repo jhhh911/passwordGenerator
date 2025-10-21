@@ -1,40 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(50, 50, 59);
+  background-color: #1F2937;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Karla", sans-serif;;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 24px;
 }
 
-span {
-  color: lightgreen;
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 800;
 }
+
+span {
+  color: #55F991;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#tagline {
+  margin-top: 0;
+  font-weight: 300;
+}
+
 label {
   font-size: 18px;
+  font-weight: 300;
 }
 
 #myDropdown {
-  margin-top: 20px;
   font-size: 20px;
 }
 
 button {
-  background-color: lightgreen;
+  background-color: #55F991;
   color: white;
-  padding: 7px 14px;
+  padding: 9px 15px;
   border-radius: 5px;
   text-shadow: 0 0 10px black;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 30px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .border-bottom {
   height: 1px;
-  width: 400px;
-  background-color: white;
-  margin: 25px auto;
+  width: 446px;
+  background-color: #273549;
+  margin: 20px auto;
 }
 
 .password-container {
@@ -43,12 +64,14 @@ button {
 }
 
 .password {
-  background-color: rgb(70, 70, 82);
-  padding: 10px 20px;
-  margin: 0 20px;
-  height: 20px;
-  width: 185px;
-  border-radius: 5px;
-  font-size: 14px;
+  background-color: #273549;
+  padding: 10px;
+  margin: 0 12px;
+  cursor: pointer;
+  height: 39px;
+  width: 211px;
+  border-radius: 6px;
+  font-size: 16px;
   text-align: center;
+  color: #55F991;
 }
